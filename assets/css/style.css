@@ -8,6 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
+a:hover {
+   text-decoration: underline;
+   background-color: grey;
+   color: deepskyblue;
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -44,6 +50,8 @@ header li {
 a {
     color: #ffffff;
     text-decoration: none;
+    padding: 8px;
+    display: inline-block;
 }
 
 p {
